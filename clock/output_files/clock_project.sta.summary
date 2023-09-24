@@ -1,0 +1,221 @@
+------------------------------------------------------------
+Timing Analyzer Summary
+------------------------------------------------------------
+
+Type  : Slow 1200mV 85C Model Setup 'CLK_DVD:C0|TEMP'
+Slack : -5.701
+TNS   : -39.573
+
+Type  : Slow 1200mV 85C Model Setup 'CLK'
+Slack : -4.240
+TNS   : -61.969
+
+Type  : Slow 1200mV 85C Model Setup 'SEC'
+Slack : -3.548
+TNS   : -13.811
+
+Type  : Slow 1200mV 85C Model Setup 'RESET'
+Slack : -1.013
+TNS   : -8.148
+
+Type  : Slow 1200mV 85C Model Hold 'SEC'
+Slack : -1.200
+TNS   : -1.200
+
+Type  : Slow 1200mV 85C Model Hold 'CLK_DVD:C0|TEMP'
+Slack : 0.355
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'RESET'
+Slack : 0.378
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'CLK'
+Slack : 0.638
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Recovery 'CLK_DVD:C0|TEMP'
+Slack : -4.909
+TNS   : -12.307
+
+Type  : Slow 1200mV 85C Model Recovery 'SEC'
+Slack : -3.551
+TNS   : -6.875
+
+Type  : Slow 1200mV 85C Model Recovery 'RESET'
+Slack : 0.128
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Removal 'RESET'
+Slack : -0.682
+TNS   : -7.163
+
+Type  : Slow 1200mV 85C Model Removal 'SEC'
+Slack : 0.808
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Removal 'CLK_DVD:C0|TEMP'
+Slack : 2.190
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'CLK'
+Slack : -3.000
+TNS   : -49.299
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'RESET'
+Slack : -3.000
+TNS   : -22.933
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'SEC'
+Slack : -3.000
+TNS   : -8.612
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'CLK_DVD:C0|TEMP'
+Slack : -1.403
+TNS   : -11.224
+
+Type  : Slow 1200mV 0C Model Setup 'CLK_DVD:C0|TEMP'
+Slack : -5.228
+TNS   : -36.314
+
+Type  : Slow 1200mV 0C Model Setup 'CLK'
+Slack : -3.854
+TNS   : -52.824
+
+Type  : Slow 1200mV 0C Model Setup 'SEC'
+Slack : -3.177
+TNS   : -12.545
+
+Type  : Slow 1200mV 0C Model Setup 'RESET'
+Slack : -0.845
+TNS   : -6.233
+
+Type  : Slow 1200mV 0C Model Hold 'SEC'
+Slack : -1.165
+TNS   : -1.165
+
+Type  : Slow 1200mV 0C Model Hold 'CLK_DVD:C0|TEMP'
+Slack : 0.322
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'RESET'
+Slack : 0.339
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'CLK'
+Slack : 0.589
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Recovery 'CLK_DVD:C0|TEMP'
+Slack : -4.349
+TNS   : -10.721
+
+Type  : Slow 1200mV 0C Model Recovery 'SEC'
+Slack : -3.049
+TNS   : -5.521
+
+Type  : Slow 1200mV 0C Model Recovery 'RESET'
+Slack : 0.093
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Removal 'RESET'
+Slack : -0.688
+TNS   : -7.554
+
+Type  : Slow 1200mV 0C Model Removal 'SEC'
+Slack : 0.801
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Removal 'CLK_DVD:C0|TEMP'
+Slack : 2.125
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'CLK'
+Slack : -3.000
+TNS   : -49.299
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'RESET'
+Slack : -3.000
+TNS   : -22.747
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'SEC'
+Slack : -3.000
+TNS   : -8.612
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'CLK_DVD:C0|TEMP'
+Slack : -1.403
+TNS   : -11.224
+
+Type  : Fast 1200mV 0C Model Setup 'CLK_DVD:C0|TEMP'
+Slack : -2.126
+TNS   : -14.421
+
+Type  : Fast 1200mV 0C Model Setup 'CLK'
+Slack : -1.384
+TNS   : -6.316
+
+Type  : Fast 1200mV 0C Model Setup 'SEC'
+Slack : -1.147
+TNS   : -4.431
+
+Type  : Fast 1200mV 0C Model Setup 'RESET'
+Slack : 0.152
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'SEC'
+Slack : -0.481
+TNS   : -0.481
+
+Type  : Fast 1200mV 0C Model Hold 'CLK_DVD:C0|TEMP'
+Slack : 0.152
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'RESET'
+Slack : 0.166
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'CLK'
+Slack : 0.245
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Recovery 'CLK_DVD:C0|TEMP'
+Slack : -2.594
+TNS   : -6.698
+
+Type  : Fast 1200mV 0C Model Recovery 'SEC'
+Slack : -2.062
+TNS   : -4.570
+
+Type  : Fast 1200mV 0C Model Recovery 'RESET'
+Slack : 0.526
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Removal 'RESET'
+Slack : -0.082
+TNS   : -0.302
+
+Type  : Fast 1200mV 0C Model Removal 'SEC'
+Slack : 0.314
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Removal 'CLK_DVD:C0|TEMP'
+Slack : 0.853
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'CLK'
+Slack : -3.000
+TNS   : -36.924
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'RESET'
+Slack : -3.000
+TNS   : -17.946
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'SEC'
+Slack : -3.000
+TNS   : -7.559
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'CLK_DVD:C0|TEMP'
+Slack : -1.000
+TNS   : -8.000
+
+------------------------------------------------------------

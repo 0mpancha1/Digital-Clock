@@ -1,0 +1,280 @@
+# Reading pref.tcl
+# do clock_project_run_msim_rtl_vhdl.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim - Intel FPGA Edition vmap 2020.1 Lib Mapping Utility 2020.02 Feb 28 2020
+# vmap work rtl_work 
+# Copying C:/intelFPGA_lite/20.1/modelsim_ase/win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# 
+# vcom -93 -work work {E:/AND_2.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 11:26:15 on Nov 26,2022
+# vcom -reportprogress 300 -93 -work work E:/AND_2.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity AND_2
+# -- Compiling architecture Functionality of AND_2
+# End time: 11:26:16 on Nov 26,2022, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {E:/clock/EE_232.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 11:26:16 on Nov 26,2022
+# vcom -reportprogress 300 -93 -work work E:/clock/EE_232.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling package EE_232
+# End time: 11:26:16 on Nov 26,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {E:/clock/OR_2.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 11:26:16 on Nov 26,2022
+# vcom -reportprogress 300 -93 -work work E:/clock/OR_2.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity OR_2
+# -- Compiling architecture FUNCTIONALITY of OR_2
+# End time: 11:26:16 on Nov 26,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {E:/clock/NOT_1.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 11:26:16 on Nov 26,2022
+# vcom -reportprogress 300 -93 -work work E:/clock/NOT_1.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity NOT_1
+# -- Compiling architecture FUNCTIONALITY of NOT_1
+# End time: 11:26:16 on Nov 26,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {E:/clock/D_FF.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 11:26:16 on Nov 26,2022
+# vcom -reportprogress 300 -93 -work work E:/clock/D_FF.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity D_FF
+# -- Compiling architecture FUNCTIONALITY of D_FF
+# End time: 11:26:16 on Nov 26,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {E:/clock/CLK_DVD.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 11:26:16 on Nov 26,2022
+# vcom -reportprogress 300 -93 -work work E:/clock/CLK_DVD.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity CLK_DVD
+# -- Compiling architecture FUNCTIONALITY of CLK_DVD
+# End time: 11:26:16 on Nov 26,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {E:/xor_2.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 11:26:16 on Nov 26,2022
+# vcom -reportprogress 300 -93 -work work E:/xor_2.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package EE_232
+# -- Compiling entity xor_2
+# -- Compiling architecture structure of xor_2
+# End time: 11:26:16 on Nov 26,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {E:/clock/CLOCK.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 11:26:16 on Nov 26,2022
+# vcom -reportprogress 300 -93 -work work E:/clock/CLOCK.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package EE_232
+# -- Compiling entity CLOCK
+# -- Compiling architecture FUNCTIONALITY of CLOCK
+# End time: 11:26:16 on Nov 26,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {E:/clock/MUX_2X1.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 11:26:16 on Nov 26,2022
+# vcom -reportprogress 300 -93 -work work E:/clock/MUX_2X1.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package EE_232
+# -- Compiling entity MUX_2X1
+# -- Compiling architecture FUNCTIONALITY of MUX_2X1
+# End time: 11:26:17 on Nov 26,2022, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {E:/clock/COUNTER_SYNC_MOD12.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 11:26:17 on Nov 26,2022
+# vcom -reportprogress 300 -93 -work work E:/clock/COUNTER_SYNC_MOD12.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package EE_232
+# -- Compiling entity COUNTER_SYNC_MOD12
+# -- Compiling architecture FUNCTIONALITY of COUNTER_SYNC_MOD12
+# End time: 11:26:17 on Nov 26,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {E:/clock/COUNTER_SYNC_MOD10.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 11:26:17 on Nov 26,2022
+# vcom -reportprogress 300 -93 -work work E:/clock/COUNTER_SYNC_MOD10.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package EE_232
+# -- Compiling entity COUNTER_SYNC_MOD10
+# -- Compiling architecture FUNCTIONALITY of COUNTER_SYNC_MOD10
+# End time: 11:26:17 on Nov 26,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {E:/clock/COUNTER_SYNC_MOD6.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 11:26:17 on Nov 26,2022
+# vcom -reportprogress 300 -93 -work work E:/clock/COUNTER_SYNC_MOD6.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package EE_232
+# -- Compiling entity COUNTER_SYNC_MOD6
+# -- Compiling architecture FUNCTIONALITY of COUNTER_SYNC_MOD6
+# End time: 11:26:18 on Nov 26,2022, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {E:/clock/BCD2SSD.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 11:26:18 on Nov 26,2022
+# vcom -reportprogress 300 -93 -work work E:/clock/BCD2SSD.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package EE_232
+# -- Compiling entity BCD2SSD
+# -- Compiling architecture FUNCTIONALITY of BCD2SSD
+# End time: 11:26:18 on Nov 26,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+vsim work.clock
+# vsim work.clock 
+# Start time: 11:26:39 on Nov 26,2022
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading work.ee_232
+# Loading work.clock(functionality)
+# Loading work.not_1(functionality)
+# Loading work.clk_dvd(functionality)
+# Loading work.mux_2x1(functionality)
+# Loading work.and_2(functionality)
+# Loading work.or_2(functionality)
+# Loading work.counter_sync_mod10(functionality)
+# Loading work.d_ff(functionality)
+# Loading work.counter_sync_mod6(functionality)
+# Loading work.counter_sync_mod12(functionality)
+# Loading work.bcd2ssd(functionality)
+# Loading work.xor_2(structure)
+# ** Warning: Design size of 15574 statements exceeds ModelSim-Intel FPGA Starter Edition recommended capacity.
+# Expect performance to be adversely affected.
+add wave -position insertpoint  \
+sim:/clock/CLK \
+sim:/clock/RESET \
+sim:/clock/UP_DN \
+sim:/clock/STOP \
+sim:/clock/SEC \
+sim:/clock/MIN \
+sim:/clock/HOUR \
+sim:/clock/SEC0 \
+sim:/clock/SEC1 \
+sim:/clock/MIN0 \
+sim:/clock/MIN1 \
+sim:/clock/HOUR0 \
+sim:/clock/HOUR1
+force -freeze sim:/clock/CLK 1 0, 0 {50 ps} -r 100
+force -freeze sim:/clock/RESET 1 0
+force -freeze sim:/clock/UP_DN 1 0
+force -freeze sim:/clock/STOP 0 0
+run
+force -freeze sim:/clock/RESET 0 0
+run
+force -freeze sim:/clock/CLK 1 0, 0 {500 ps} -r 1000
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+# End time: 11:34:52 on Nov 26,2022, Elapsed time: 0:08:13
+# Errors: 0, Warnings: 1

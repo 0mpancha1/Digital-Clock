@@ -1,0 +1,539 @@
+m255
+K4
+z2
+!s11e vcom 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dE:/clock/simulation/modelsim
+Eand_2
+Z1 w1669318669
+Z2 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z3 DPx4 ieee 14 std_logic_1164 0 22 cVAk:aDinOX8^VGI1ekP<3
+!i122 0
+R0
+Z4 8E:/AND_2.vhd
+Z5 FE:/AND_2.vhd
+l0
+L4 1
+VFCQ]Cfc3EZ3VDa_mOI9hF1
+!s100 hU<bD@a:1OMeQ>a^99IUm2
+Z6 OV;C;2020.1;71
+31
+Z7 !s110 1669442176
+!i10b 1
+Z8 !s108 1669442175.000000
+Z9 !s90 -reportprogress|300|-93|-work|work|E:/AND_2.vhd|
+Z10 !s107 E:/AND_2.vhd|
+!i113 1
+Z11 o-93 -work work
+Z12 tExplicit 1 CvgOpt 0
+Afunctionality
+R2
+R3
+DEx4 work 5 and_2 0 22 FCQ]Cfc3EZ3VDa_mOI9hF1
+!i122 0
+l12
+L11 5
+VGFJPgmM56hRDlTN@k7LDK0
+!s100 iW;I9T^BAbm6LkY;h4BEz3
+R6
+31
+R7
+!i10b 1
+R8
+R9
+R10
+!i113 1
+R11
+R12
+Ebcd2ssd
+Z13 w1669439465
+Z14 DPx4 work 6 ee_232 0 22 MbJS7JT2?=mQG8`OGTJ=C2
+R2
+R3
+!i122 12
+R0
+Z15 8E:/clock/BCD2SSD.vhd
+Z16 FE:/clock/BCD2SSD.vhd
+l0
+L5 1
+V:g3Hc]M9HYLGYSX:L<Fec1
+!s100 4mUJ@>VZYdH=H`JQF<Ndj0
+R6
+31
+Z17 !s110 1669442178
+!i10b 1
+Z18 !s108 1669442178.000000
+Z19 !s90 -reportprogress|300|-93|-work|work|E:/clock/BCD2SSD.vhd|
+!s107 E:/clock/BCD2SSD.vhd|
+!i113 1
+R11
+R12
+Afunctionality
+R14
+R2
+R3
+DEx4 work 7 bcd2ssd 0 22 :g3Hc]M9HYLGYSX:L<Fec1
+!i122 12
+l16
+L11 46
+V]gHOW_fgi8cX`k__D];Kb0
+!s100 `jGOOn>I_lFiDhm<@3]WF2
+R6
+31
+R17
+!i10b 1
+R18
+R19
+Z20 !s107 E:/clock/BCD2SSD.vhd|
+!i113 1
+R11
+R12
+Eclk_dvd
+Z21 w1669439478
+R2
+R3
+!i122 5
+R0
+Z22 8E:/clock/CLK_DVD.vhd
+Z23 FE:/clock/CLK_DVD.vhd
+l0
+L4 1
+VaW:M`47CRgLXJ2`cZKjlj2
+!s100 o9jS5GV4TYlbOIoac=QgA0
+R6
+31
+R7
+!i10b 1
+Z24 !s108 1669442176.000000
+Z25 !s90 -reportprogress|300|-93|-work|work|E:/clock/CLK_DVD.vhd|
+Z26 !s107 E:/clock/CLK_DVD.vhd|
+!i113 1
+R11
+R12
+Afunctionality
+R2
+R3
+DEx4 work 7 clk_dvd 0 22 aW:M`47CRgLXJ2`cZKjlj2
+!i122 5
+l15
+L10 27
+VJG?ag`aSfbEme09be7B>D3
+!s100 _eMf0GDjo>kX3j:C0@io23
+R6
+31
+R7
+!i10b 1
+R24
+R25
+R26
+!i113 1
+R11
+R12
+Eclock
+Z27 w1669441352
+R14
+R2
+R3
+!i122 7
+R0
+Z28 8E:/clock/CLOCK.vhd
+Z29 FE:/clock/CLOCK.vhd
+l0
+L5 1
+VOjFakE1kAKEdJldPJc[g42
+!s100 BBIgUC3SCH_Z0O;S5EB6=1
+R6
+31
+R7
+!i10b 1
+R24
+Z30 !s90 -reportprogress|300|-93|-work|work|E:/clock/CLOCK.vhd|
+Z31 !s107 E:/clock/CLOCK.vhd|
+!i113 1
+R11
+R12
+Afunctionality
+R14
+R2
+R3
+DEx4 work 5 clock 0 22 OjFakE1kAKEdJldPJc[g42
+!i122 7
+l24
+L15 88
+VGG3k3knadK2@JWjb9gSgg2
+!s100 aH4AD7mnl7n:ec=>a^CMA0
+R6
+31
+R7
+!i10b 1
+R24
+R30
+R31
+!i113 1
+R11
+R12
+Ecounter_sync_mod10
+Z32 w1669439526
+R14
+R2
+R3
+!i122 10
+R0
+Z33 8E:/clock/COUNTER_SYNC_MOD10.vhd
+Z34 FE:/clock/COUNTER_SYNC_MOD10.vhd
+l0
+L5 1
+VeJEL56zU68aNGZ]_C<E^i1
+!s100 z?G?EcjW2gPcU;]0DPRFn1
+R6
+31
+Z35 !s110 1669442177
+!i10b 1
+Z36 !s108 1669442177.000000
+Z37 !s90 -reportprogress|300|-93|-work|work|E:/clock/COUNTER_SYNC_MOD10.vhd|
+Z38 !s107 E:/clock/COUNTER_SYNC_MOD10.vhd|
+!i113 1
+R11
+R12
+Afunctionality
+R14
+R2
+R3
+DEx4 work 18 counter_sync_mod10 0 22 eJEL56zU68aNGZ]_C<E^i1
+!i122 10
+l26
+L16 97
+VXEaQ<<WTdaLOFBKggH7SW3
+!s100 fmnD_Ja<KfDcIaio:A8;]0
+R6
+31
+R35
+!i10b 1
+R36
+R37
+R38
+!i113 1
+R11
+R12
+Ecounter_sync_mod12
+Z39 w1669439539
+R14
+R2
+R3
+!i122 9
+R0
+Z40 8E:/clock/COUNTER_SYNC_MOD12.vhd
+Z41 FE:/clock/COUNTER_SYNC_MOD12.vhd
+l0
+L5 1
+V`i[Ec37]LbEGoDO;7AHQa1
+!s100 gTmBA<4=ZY]X^TFJ0[gRP1
+R6
+31
+R35
+!i10b 1
+R36
+Z42 !s90 -reportprogress|300|-93|-work|work|E:/clock/COUNTER_SYNC_MOD12.vhd|
+Z43 !s107 E:/clock/COUNTER_SYNC_MOD12.vhd|
+!i113 1
+R11
+R12
+Afunctionality
+R14
+R2
+R3
+DEx4 work 18 counter_sync_mod12 0 22 `i[Ec37]LbEGoDO;7AHQa1
+!i122 9
+l25
+L15 79
+V@NV;G@N<Aa]C5IXV]b<mY1
+!s100 d@iV?1@5i9]OXE873kY7J1
+R6
+31
+R35
+!i10b 1
+R36
+R42
+R43
+!i113 1
+R11
+R12
+Ecounter_sync_mod6
+Z44 w1669439515
+R14
+R2
+R3
+!i122 11
+R0
+Z45 8E:/clock/COUNTER_SYNC_MOD6.vhd
+Z46 FE:/clock/COUNTER_SYNC_MOD6.vhd
+l0
+L5 1
+Vh97:ShG_8kMR[52:d]U6D2
+!s100 ;hzmYSkJkZ3iIKnE9W@d:3
+R6
+31
+R17
+!i10b 1
+R36
+Z47 !s90 -reportprogress|300|-93|-work|work|E:/clock/COUNTER_SYNC_MOD6.vhd|
+Z48 !s107 E:/clock/COUNTER_SYNC_MOD6.vhd|
+!i113 1
+R11
+R12
+Afunctionality
+R14
+R2
+R3
+DEx4 work 17 counter_sync_mod6 0 22 h97:ShG_8kMR[52:d]U6D2
+!i122 11
+l27
+L17 99
+VeXF`F8VZP`TG49?<afgPQ3
+!s100 WLEPS84]^Q0`mkC``H>U;2
+R6
+31
+R17
+!i10b 1
+R36
+R47
+R48
+!i113 1
+R11
+R12
+Ed_ff
+Z49 w1669439570
+R2
+R3
+!i122 4
+R0
+Z50 8E:/clock/D_FF.vhd
+Z51 FE:/clock/D_FF.vhd
+l0
+L4 1
+V3G[4LJg54Cc5C8cMUD4IC3
+!s100 fW@14eSkOBRZ8C4<clKSd2
+R6
+31
+R7
+!i10b 1
+R24
+Z52 !s90 -reportprogress|300|-93|-work|work|E:/clock/D_FF.vhd|
+Z53 !s107 E:/clock/D_FF.vhd|
+!i113 1
+R11
+R12
+Afunctionality
+R2
+R3
+DEx4 work 4 d_ff 0 22 3G[4LJg54Cc5C8cMUD4IC3
+!i122 4
+l16
+L13 24
+VO]G?`R8LfLYKPNDozR:DI0
+!s100 O9HoIgLYnTzOk[g_PRBL?2
+R6
+31
+R7
+!i10b 1
+R24
+R52
+R53
+!i113 1
+R11
+R12
+Pee_232
+R2
+R3
+!i122 1
+w1669441353
+R0
+8E:/clock/EE_232.vhd
+FE:/clock/EE_232.vhd
+l0
+L4 1
+VMbJS7JT2?=mQG8`OGTJ=C2
+!s100 BN21<HT]@B1IhS`o`K1Ig3
+R6
+31
+R7
+!i10b 1
+R24
+!s90 -reportprogress|300|-93|-work|work|E:/clock/EE_232.vhd|
+!s107 E:/clock/EE_232.vhd|
+!i113 1
+R11
+R12
+Emux_2x1
+Z54 w1669439590
+R14
+R2
+R3
+!i122 8
+R0
+Z55 8E:/clock/MUX_2X1.vhd
+Z56 FE:/clock/MUX_2X1.vhd
+l0
+L5 1
+VaLo>a4lhbLBMzb_Li:7H:0
+!s100 ]^zIEH[_H]NJYLgJD:=de0
+R6
+31
+R35
+!i10b 1
+R24
+Z57 !s90 -reportprogress|300|-93|-work|work|E:/clock/MUX_2X1.vhd|
+Z58 !s107 E:/clock/MUX_2X1.vhd|
+!i113 1
+R11
+R12
+Afunctionality
+R14
+R2
+R3
+DEx4 work 7 mux_2x1 0 22 aLo>a4lhbLBMzb_Li:7H:0
+!i122 8
+l13
+L10 10
+V;KBTW6C[H@1U0aR6W4Q<j0
+!s100 @2RMiNOcIg`MCDJzdEBCi0
+R6
+31
+R35
+!i10b 1
+R24
+R57
+R58
+!i113 1
+R11
+R12
+Enot_1
+Z59 w1669439609
+R2
+R3
+!i122 3
+R0
+Z60 8E:/clock/NOT_1.vhd
+Z61 FE:/clock/NOT_1.vhd
+l0
+L4 1
+VjjiEYcXNTDgD9hY:kfhI73
+!s100 ^TDE<I0Y:=GmO3OL3FUUO1
+R6
+31
+R7
+!i10b 1
+R24
+Z62 !s90 -reportprogress|300|-93|-work|work|E:/clock/NOT_1.vhd|
+Z63 !s107 E:/clock/NOT_1.vhd|
+!i113 1
+R11
+R12
+Afunctionality
+R2
+R3
+DEx4 work 5 not_1 0 22 jjiEYcXNTDgD9hY:kfhI73
+!i122 3
+l12
+L10 5
+VHkZ5RP6Fh=PZ`XRRS]6JG2
+!s100 <F=1LdZPbK;NEjFCgP^C93
+R6
+31
+R7
+!i10b 1
+R24
+R62
+R63
+!i113 1
+R11
+R12
+Eor_2
+Z64 w1669439633
+R2
+R3
+!i122 2
+R0
+Z65 8E:/clock/OR_2.vhd
+Z66 FE:/clock/OR_2.vhd
+l0
+L4 1
+VehI`Daf6Qh[]JE[koRhDe0
+!s100 3g^@Wd3PT`[H[Vh6S^=[?0
+R6
+31
+R7
+!i10b 1
+R24
+Z67 !s90 -reportprogress|300|-93|-work|work|E:/clock/OR_2.vhd|
+Z68 !s107 E:/clock/OR_2.vhd|
+!i113 1
+R11
+R12
+Afunctionality
+R2
+R3
+DEx4 work 4 or_2 0 22 ehI`Daf6Qh[]JE[koRhDe0
+!i122 2
+l11
+L9 6
+V907NFS@e4:AngI@;agUh51
+!s100 D5@HF42Ym>]B>7JaWQPmk1
+R6
+31
+R7
+!i10b 1
+R24
+R67
+R68
+!i113 1
+R11
+R12
+Exor_2
+Z69 w1669318769
+R14
+R2
+R3
+!i122 6
+R0
+Z70 8E:/xor_2.vhd
+Z71 FE:/xor_2.vhd
+l0
+L5 1
+VomaWaO00`BMF0J=m40N^G3
+!s100 =DeOC?L;PbO^NKaC]5bff2
+R6
+31
+R7
+!i10b 1
+R24
+Z72 !s90 -reportprogress|300|-93|-work|work|E:/xor_2.vhd|
+Z73 !s107 E:/xor_2.vhd|
+!i113 1
+R11
+R12
+Astructure
+R14
+R2
+R3
+DEx4 work 5 xor_2 0 22 omaWaO00`BMF0J=m40N^G3
+!i122 6
+l20
+L10 17
+VbPlZgnmm:X<BF_f5^4_BZ0
+!s100 Bbljnj?7;>no]HXIl9MHO2
+R6
+31
+R7
+!i10b 1
+R24
+R72
+R73
+!i113 1
+R11
+R12
